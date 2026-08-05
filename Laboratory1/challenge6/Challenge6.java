@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Challenge6{
-        public static String executeCommand(String command){
+        public static void executeCommand(String command){
             Map<String, Runnable> commands= new HashMap<>();
             commands.put("GREET", () -> System.out.println("Greetings, traveler of time and code"));
             commands.put("FAREWELL", () -> System.out.println("May the bits be with you until the next mission"));
@@ -23,4 +23,4 @@ public class Challenge6{
         }
             public static void main(String[] args){
                 
-    }
+    }}
