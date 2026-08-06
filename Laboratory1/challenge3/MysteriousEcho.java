@@ -7,19 +7,25 @@ import java.util.stream.Collectors;
 
 public class MysteriousEcho {
 
-    // Student A requirement: Repeats the message three times, separated by a space using StringBuilder and stream()
-    public static String repeatMessage(String start) {
+    // Collision requirement: Repeats the message three times separated by space (Student A/StringBuilder),
+    // and reverses the final result using StringBuffer (Student B requirement)
+    public static String echoCollision(String start) {
         List<String> repetitions = Collections.nCopies(3, start);
-        return repetitions.stream()
-                          .collect(Collectors.joining(" "));
+        String repeated = repetitions.stream()
+                                    .collect(Collectors.joining(" "));
+        
+        // Reversing the final result using StringBuffer as required in the collision
+        StringBuffer sb = new StringBuffer(repeated);
+        sb.reverse();
+        return sb.toString();
     }
 
     public static void main(String[] args) {
         // Lambda to invoke the function as required
-        Function<String, String> echoFunction = MysteriousEcho::repeatMessage;
+        Function<String, String> echoFunction = MysteriousEcho::echoCollision;
         
         String st = "Hola Mundo";
         System.out.println("Original: " + st);
-        System.out.println("Repeated (Student A): " + echoFunction.apply(st));
+        System.out.println("Result (Collision): " + echoFunction.apply(st));
     }
 }
