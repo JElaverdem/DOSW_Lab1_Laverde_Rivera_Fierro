@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Laboratory 1 — Git, GitHub, and Functional Programming
 
 Team Members
@@ -82,3 +83,53 @@ Description:
 11. Describe the steps required to create a new feature branch from develop.
 12. What is the difference between git branch and git checkout -b?
 13. Why should new functionality be developed in feature/* branches instead of directly in main?
+=======
+Team Members:
+
+Juan Esteban Laverde Mesa
+
+Juan José Rivera Lopez
+
+Brian Steven Fierro Lechuga
+
+
+
+
+
+Challenge evidence:
+
+
+
+Challenge1:
+
+
+
+Challenge2:
+
+
+
+Challenge3:
+
+
+
+Challenge4:
+
+
+
+Challenge5:
+
+
+
+Challenge6:
+
+
+
+
+
+Technical explanations:
+
+
+
+Answers:
+
+>>>>>>> 279cd9b73037b2b39136b47e5732130b636fd2a0

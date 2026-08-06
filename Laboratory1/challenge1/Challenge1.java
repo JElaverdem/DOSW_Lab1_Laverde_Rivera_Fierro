@@ -2,41 +2,46 @@ package Laboratory1.challenge1;
 import java.util.ArrayList;
 
 public class Challenge1{
-    private ArrayList<Student> Students; //The list of the students in our group.
+    private ArrayList<Student> students; //The list of the students in our group.
 
     /**
      * Constructor of the challenge, we begin to answer the problem.
      */
     public Challenge1(){
         for(int i = 0; i < 3; i++){
-            this.Students.add(askStudent(i+1));
+            this.students.add(askStudent(i+1));
         }
 
         presentAnswer();
         
+    }
+        public  void main(String[] args){
+        Welcomemessage.Welcome();
+	    this.students = new ArrayList<>();
+        new Challenge1();
     }
 
     /**
      * Method to ask the student his 
      * @param numEstudiante
      */
-    private askStudent(int numEstudiante){
-        println("Estudiante #"+String.valueOf(numEstudiante)+" por favor diga su nombre");
+    private Student askStudent(int numEstudiante){
+        System.out.println("Estudiante #"+String.valueOf(numEstudiante)+" por favor diga su nombre");
+	//Here it should return a student with all his data
+	return null;
     }
 
     /**
      * Method to present the answer of the challenge.
      */
-    private presentAnswer(){
-
+    private void presentAnswer(){
+	//It uses the attribute students directly, it is not required to receive the array
     }
 
-    public static void main(String[] args){
-        Welcomemessage.Welcome();
-        new Challenge1();
-    }
+
 }
-class Student{
+
+public class Student{
     private String name;
     private Integer age;
     private String email;
