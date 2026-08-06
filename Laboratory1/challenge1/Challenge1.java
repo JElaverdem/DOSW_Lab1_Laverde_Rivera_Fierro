@@ -41,7 +41,7 @@ public class Challenge1{
 
 }
 
-public class Student{
+class Student{
     private String name;
     private Integer age;
     private String email;
