@@ -24,12 +24,12 @@ Description: It works with the simulation of the threats, implement the process 
 # Challenge 3 — The Mysterious Echo
 [Challenge 3 evidence](images/challenge3.png)
 Description:
-In Challenge 3, I implemented the Builder pattern while Brian and Juan Esteban reviewed and approved the code on GitHub. Issues with untracked files when switching branches were resolved by temporarily isolating the changes using git stash.
+In Challenge 3, JuanJose implemented the Builder pattern while Brian and Juan Esteban reviewed and approved the code on GitHub. Issues with untracked files when switching branches were resolved by temporarily isolating the changes using git stash.
 
 # Challenge 4 — The Treasure of Duplicate Keys
 [Challenge 4 evidence](images/challenge4.png)
 Description:
-For Challenge 4, I implemented the reading of Map collections using Streams, and Brian validated the execution of the merge. We resolved compilation errors by removing the package declaration and avoided overwriting code when switching branches by temporarily renaming files using mv. 
+For Challenge 4, JuanJose implemented the reading of Map collections using Streams, and Brian validated the execution of the merge. We resolved compilation errors by removing the package declaration and avoided overwriting code when switching branches by temporarily renaming files using mv. 
 
 # Challenge 5 — Battle of Sets
 [Challenge 5 evidence](images/challenge5.png)
