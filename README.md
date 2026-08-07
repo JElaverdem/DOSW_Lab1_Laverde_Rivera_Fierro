@@ -15,34 +15,21 @@ Team Members
 # Challenge 1 — Welcome Message
 [Challenge 1 evidence](images/challenge1.png)
 Description:
-We use 3 different classes, the main class, the student class, and the message class, the student class has the student attributes, We divided between Juan Jose and Juan Esteban, Juan jose implements the welcome class and Juan Esteban the Student class. We use: push, pull, comit, add. We didn't have any conflict with the merge
+We use 3 different classes, the main class, the student class, and the message class, the student class has the student attributes, We divided between Juan Jose and Juan Esteban, Juan jose implements the welcome class and Juan Esteban the Student class. We use: push, pull, commit, add. We didn't have any conflict with the merge
 
 # Challenge 2 — Parallel Commit Race
 [Challenge 2 evidence](images/challenge2.png)
-Description:
-*   What was implemented: 
-*   How the work was divided: 
-*   Which Git operations were used: 
-*   Which conflicts appeared: 
-*   How the conflicts were resolved: 
+Description: It works with the simulation of the threats, implement the process paralelo and indepement from line 1 and line 2, Juan Jose work like A student, Brian Like student B, he develoment and implemnt the logic for line 2.  We use: push, pull, commit, add. We didn't have any conflict with the merge
 
 # Challenge 3 — The Mysterious Echo
 [Challenge 3 evidence](images/challenge3.png)
 Description:
-*   What was implemented: 
-*   How the work was divided: 
-*   Which Git operations were used: 
-*   Which conflicts appeared: 
-*   How the conflicts were resolved: 
+In Challenge 3, I implemented the Builder pattern while Brian and Juan Esteban reviewed and approved the code on GitHub. Issues with untracked files when switching branches were resolved by temporarily isolating the changes using git stash.
 
 # Challenge 4 — The Treasure of Duplicate Keys
 [Challenge 4 evidence](images/challenge4.png)
 Description:
-*   What was implemented: 
-*   How the work was divided: 
-*   Which Git operations were used: 
-*   Which conflicts appeared: 
-*   How the conflicts were resolved: 
+For Challenge 4, I implemented the reading of Map collections using Streams, and Brian validated the execution of the merge. We resolved compilation errors by removing the package declaration and avoided overwriting code when switching branches by temporarily renaming files using mv. 
 
 # Challenge 5 — Battle of Sets
 [Challenge 5 evidence](images/challenge5.png)
@@ -139,27 +126,6 @@ Challenge1:
 We use 3 different classes, the main class, the student class, and the message class, the student class has the student attributes, We divided between Juan Jose and Juan Esteban, Juan jose implements the welcome class and Juan Esteban the Student class. We use: push, pull, comit, add. We didn't have any conflict
 Challenge2:
 
-
-
-Challenge3:
-
-
-
-Challenge4:
-
-
-
-Challenge5:
-
-
-
-Challenge6:
-
-
-
-
-
-Technical explanations:
 
 
 
