@@ -56,29 +56,46 @@ Description:
 # Challenge 6 — The Decision Machine
 [Challenge 6 evidence](images/challenge6.png)
 Description:
-*   What was implemented: 
-*   How the work was divided: 
-*   Which Git operations were used: 
-*   Which conflicts appeared: 
-*   How the conflicts were resolved: 
+* What was implemented:Lambda functions to print the messages, a map of the class 'Runnable' to better implement the texts of the print, a switch to know and be sure the command was something expected.
+* How the work was divided: Juan Esteban created the structure of the challenge and implemented the part of Student A, Brian Steven implemented the part of Student B and the execution of those commands.
+* Which Git operations were used: git checkout -b, git commit -m, git push, git merge.
+* Which conflicts appeared: When trying to merge the changes to develop, the contents of the README about the challenge 6 dissapeared.
+* How the conflicts were resolved: Using the last commit in the branch of the challenge copy what was in the README and talked with the team to know what happened so we can be more careful.
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
  Answers to the Conceptual Questionnaire
 
 1. Team agreements:
+-We are going to communicate through a group in WhatsApp and have a group in team wich we are going to use to make calls if needed.
+
 2. What is the difference between git merge and git rebase?
+
 3. What happens when two branches modify the same line of a file?
+
 4. How can you display the branch and merge history graphically in the terminal?
+
 5. What is the difference between a commit and a push?
+-With a commit we change the 'staging' workplace, where we upload but it can not be seen by others or in GitHub, we use a push to upload the changes made with the commits to the remote workplace wich is GitHub, if we push, it can be seen by others.
+
 6. What are git stash and git stash pop used for?
+
 7. What is the difference between HashMap and Hashtable?
+
 8. What advantages does Collectors.toMap() provide over a traditional loop?
+
 9. When using stream().map() on a list of objects, what type of operation is being performed?
+
 10. What does stream().filter() do, and what does it return?
+-It transfoms the iterable collection into an stream with all the things inside it, with filter we can decide wich numbers that fulfill a condition we are going to continue to use. When we perform a stream().filter() it creates a new Stream that contains the numbers that satisfy that condition.
+
 11. Describe the steps required to create a new feature branch from develop.
+
 12. What is the difference between git branch and git checkout -b?
+-
+
 13. Why should new functionality be developed in feature/* branches instead of directly in main?
+-To have a better workflow and because we only merge into main when we are certain the software is fully working because it is what we are going to deliver to production and we do not want to keep changing a lot a working software located in main
 =======
 Team Members:
 
