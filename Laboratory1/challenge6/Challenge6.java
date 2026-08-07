@@ -1,4 +1,3 @@
-package Laboratory1.challenge6;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -16,8 +15,14 @@ public class Challenge6{
             commands.put("ANALYZE", () -> System.out.println("Processing data... result: You are amazing at programming!"));
             switch (command){
                 case"GREET":
+                    commands.get(command).run();
+                    break;
                 case"FAREWELL":
+                    commands.get(command).run();
+                    break;
                 case"SING":
+                    commands.get(command).run();
+                    break;
                 case"DANCE":
                     commands.get(command).run();
                     break;
