@@ -112,12 +112,3 @@ Brian Steven Fierro Lechuga
 
 
 
-Challenge1:
-##Evidence:
-![Challenge evidence](images/Challenge1.png)
-
-##Description:
-We use 3 different classes, the main class, the student class, and the message class, the student class has the student attributes, We divided between Juan Jose and Juan Esteban, Juan jose implements the welcome class and Juan Esteban the Student class. We use: push, pull, comit, add. We didn't have any conflict
-Challenge2:
-
-
