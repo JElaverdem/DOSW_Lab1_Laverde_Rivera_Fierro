@@ -35,14 +35,41 @@ public class ParallelRace {
             userList.add(scanner.nextInt());
         }
 
-        int max = findMax(userList);
-        int min = findMin(userList);
+        int maxn = findMax(userList);
+        int minn = findMin(userList);
         int totalElements = countElements(userList);
 
-        System.out.println("Maximum value: " + max);
-        System.out.println("Minimum value: " + min);
+        System.out.println("Maximum value: " + maxn);
+        System.out.println("Minimum value: " + minn);
         System.out.println("Number of elements: " + totalElements);
         
         scanner.close();
+
+        boolean maxMultipleOf2 = (maxn % 2 == 0) ? true : false;
+        boolean maxDivisibleBy2 = (maxn % 2 == 0) ? true : false;
+
+        boolean sizeEven = (totalElements % 2 == 0) ? true :false;
+        boolean sizeOdd = (totalElements % 2 != 0) ? true :false;
+        new Results (maxn, minn, totalElements, maxMultipleOf2, maxDivisibleBy2, sizeEven, sizeOdd);
+    }
+}
+
+class Results {
+    public int maxValue;
+    public int minValue;
+    public int totElements;
+    public boolean isMultiple;
+    public boolean isDivisor;
+    public boolean isEven;
+    public boolean isOdd;
+
+    public Results(int maxV, int minV, int totalElements, boolean isMult, boolean isDiv, boolean isEv, boolean isOd){
+        maxValue = maxV;
+        minValue = minV;
+        totElements = totalElements;
+        isMultiple = isMult;
+        isDivisor = isDiv;
+        isEven = isEv;
+        isOdd = isOd;
     }
 }
