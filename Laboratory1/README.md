@@ -79,6 +79,7 @@ Description:
 -With a commit we change the 'staging' workplace, where we upload but it can not be seen by others or in GitHub, we use a push to upload the changes made with the commits to the remote workplace wich is GitHub, if we push, it can be seen by others.
 
 6. What are git stash and git stash pop used for?
+-With git stash it is posible to save momentarily the state of the local workplace so it is posible to navigate between branches or to do a pull, with stash pop we restore the local workplace to how it was when we used git stash.
 
 7. What is the difference between HashMap and Hashtable?
 
@@ -90,9 +91,16 @@ Description:
 -It transfoms the iterable collection into an stream with all the things inside it, with filter we can decide wich numbers that fulfill a condition we are going to continue to use. When we perform a stream().filter() it creates a new Stream that contains the numbers that satisfy that condition.
 
 11. Describe the steps required to create a new feature branch from develop.
+-Use: 
+git pull origin develop
+.So we can take all the files that are in origin and take them to the new branch
+git checkout -b feature/branch
+.To create the new branch called feature/branch
+git push -u origin feature/branch
+.When we are going to do the first push, so we can state the upstream (to see to wich branch and state it must pull) and then we only need to push and pull with 'git pull' and 'git pull' because we instantiated the upstream branch.
 
 12. What is the difference between git branch and git checkout -b?
--
+-With 'git branch' we can see the branches or even do operations with them, for example, with 'git branch - name' we can locally delete a branch, with 'git checkout -b' we can create a new branch and it moves us directly to work in that branch.
 
 13. Why should new functionality be developed in feature/* branches instead of directly in main?
 -To have a better workflow and because we only merge into main when we are certain the software is fully working because it is what we are going to deliver to production and we do not want to keep changing a lot a working software located in main
@@ -104,47 +112,3 @@ Juan Esteban Laverde Mesa
 Juan José Rivera Lopez
 
 Brian Steven Fierro Lechuga
-
-
-
-
-
-Challenge evidence:
-
-
-
-Challenge1:
-##Evidence:
-![Challenge evidence](images/Challenge1.png)
-
-##Description:
-We use 3 different classes, the main class, the student class, and the message class, the student class has the student attributes, We divided between Juan Jose and Juan Esteban, Juan jose implements the welcome class and Juan Esteban the Student class. We use: push, pull, comit, add. We didn't have any conflict
-Challenge2:
-
-
-
-Challenge3:
-
-
-
-Challenge4:
-
-
-
-Challenge5:
-
-
-
-Challenge6:
-
-
-
-
-
-Technical explanations:
-
-
-
-Answers:
-
->>>>>>> 279cd9b73037b2b39136b47e5732130b636fd2a0
