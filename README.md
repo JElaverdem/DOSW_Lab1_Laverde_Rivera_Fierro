@@ -112,12 +112,6 @@ Brian Steven Fierro Lechuga
 
 
 
-
-
-Challenge evidence:
-
-
-
 Challenge1:
 ##Evidence:
 ![Challenge evidence](images/Challenge1.png)
@@ -127,8 +121,3 @@ We use 3 different classes, the main class, the student class, and the message c
 Challenge2:
 
 
-
-
-Answers:
-
->>>>>>> 279cd9b73037b2b39136b47e5732130b636fd2a0
