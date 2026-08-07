@@ -47,11 +47,11 @@ Description:
 # Challenge 5 — Battle of Sets
 [Challenge 5 evidence](images/challenge5.png)
 Description:
-*   What was implemented: 
-*   How the work was divided: 
-*   Which Git operations were used: 
-*   Which conflicts appeared: 
-*   How the conflicts were resolved: 
+*   What was implemented: A HashSet and a TreeSet that use lambda functions to filter numbers that we do not want, to get them into order we use the TreeSet and use another lambda function to print the message with the numbers.
+*   How the work was divided: Juan Laverde implemented the part of the HashSet, Brian Fierro implemented the TreeSet and the answer to the challenge, printing it.
+*   Which Git operations were used: git push, git pull, git commit -m, git merge.
+*   Which conflicts appeared: No conflict appeared.
+*   How the conflicts were resolved: It was not necessary to resolve a conflict.
 
 # Challenge 6 — The Decision Machine
 [Challenge 6 evidence](images/challenge6.png)
