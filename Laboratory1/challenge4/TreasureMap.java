@@ -27,7 +27,7 @@ public class TreasureMap {
                 int value = Integer.parseInt(parts[1].trim());
                 hashtable.put(key, value);
             } else {
-                System.out.println("Format error. Please write it like (\"silver\", 8):");
+                System.out.println("Format error. Please write like (\"silver\", 8):");
                 i--;
             }
         }
